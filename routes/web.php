@@ -21,4 +21,5 @@ Route::get('/uts/{id}/edit','uts@edit_form');
 Route::post('/uts/edit','uts@edit');
 Route::get('/uts/{id}/delete','uts@delete');
 Route::get('/uts/search','uts@search');
+Route::get('/uts/?{nama}','uts@search');
 
